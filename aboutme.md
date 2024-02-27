@@ -4,15 +4,11 @@ title: About me
 subtitle: 
 ---
 
-I'm a software engineer working at [New Relic](https://newrelic.com). I'm Irish, but I'm based in the sunny Barcelona. I work on a mostly a bunch of ingest services with a handful of API services, the vast majority of which are on the JVM. Most code I write these days is in Kotlin, still with some in Java and the occasional Node.js application.
+I'm a software engineer currently working at [Shopify](https://shopify.com), previously [NewRelic](https://newrelic.com) I love distributed systems and have spent most of my career in this area. 
 
-We use Kafka for our ingest. We have many standard kafka consumers and numerous kafka streams applications, all written in Kotlin. Our biggest consumer consumes over 1 million messages a second, so we've had some fun learning how to scale consumption! Everything we consume ends up either cached in a redis store or an elasicsearch cluster. 
+Most software I write these days is a mix of Golang, Rust, Python or on the JVM, with the occasional web-app in node.js/react. I have extensive experience building infrastructure platforms and bringing them from prototypes to production reaching throughputs of millions of messages a second
 
-On the elastic side, we have had some fun special cases trying to cater for create a custom search experience for each user, even with a shared data store for all accounts which has been a lot of fun
-
-If you have interest in collaborating with me on either of the two technologies, don't hesitate to contact! 
-
-Thanks for reading!
+I'm generally available for consulting, so please reach out and contact! 
 
 Cian 
 
